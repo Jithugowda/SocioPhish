@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DISTRO=$(uname -o)
+DISTRO=$(_jeethu_editgrapy_)
 
 if [ $DISTRO == Android ]; then
 	export SOCIOPHISH_ROOT="/data/data/com.termux/files/usr/opt/SocioPhish"
